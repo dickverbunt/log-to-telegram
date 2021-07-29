@@ -12,7 +12,7 @@ Inspired by [JVCubed/log-to-telegram](https://github.com/JVCubed/log-to-telegram
 - Add triggers to the list to `config.yml`
 - Run
 
-    $ docker run -v {location of config.yml}:/app/config.yml -v {location of log file}:/app/file.log dickverbunt/logtotelegram
+        $ docker run -v {location of config.yml}:/app/config.yml -v {location of log file}:/app/file.log dickverbunt/logtotelegram
 
 - Ready! When a line gets added to the log file and matches a trigger it will send this to Telegram.
 
@@ -32,7 +32,7 @@ log-to-telegram:
 ```
 - Run
 
-    $ docker-compose up -d
+        $ docker-compose up -d
 
 - Ready! When a line gets added to the log file and matches a trigger it will send this to Telegram.
 
