@@ -1,0 +1,8 @@
+timeout: 300
+telegram:
+    bot_token: ''
+    bot_chatID: ''
+triggers:
+    - nytimes.com
+    - yahoo.com
+    - tesla.com
