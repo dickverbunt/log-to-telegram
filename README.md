@@ -8,6 +8,9 @@ Inspired by [JVCubed/log-to-telegram](https://github.com/JVCubed/log-to-telegram
 
 ## Setup Docker run
 - Copy the `config.yml`
+
+        $ docker run --rm --entrypoint cat dickverbunt/log-to-telegram  /app/config.yml > config.yml
+
 - Add TelegramBot api and chatID to `config.yml`
 - Add triggers to the list to `config.yml`
 - Run
@@ -18,6 +21,9 @@ Inspired by [JVCubed/log-to-telegram](https://github.com/JVCubed/log-to-telegram
 
 ## Docker compose
 - Copy the `config.yml`
+
+        $ docker run --rm --entrypoint cat dickverbunt/log-to-telegram  /app/config.yml > config.yml
+
 - Add TelegramBot api and chatID to `config.yml`
 - Add triggers to the list to `config.yml`
 - Add to docker-compose.yml
