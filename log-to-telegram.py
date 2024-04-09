@@ -33,7 +33,7 @@ logging.debug('Loaded config: ' + str(config))
 
 # Main loop
 while True:
-    line = str(f.stdout.readline())
+    line = f.stdout.readline().decode('utf-8').strip()
 
     # Check timeout
     time_start = time.time()
